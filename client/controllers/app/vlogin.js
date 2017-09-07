@@ -12,7 +12,7 @@ function app_vlogin($scope, app, $timeout) {
         $scope.bLoading = true;
         var timer = $timeout(function () {
             console.warn("move home page");
-            app.go('app.tasklist');
+            app.go('app.vmy');
         }, 2000);
     };
 }
