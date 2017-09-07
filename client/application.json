@@ -4,5 +4,10 @@
   "defaultLayout": "phone-portrait",
   "previewToken": "e7b53de2",
   "uiCommonVersion": "5.0.3",
-  "creatorId": "gdljceci"
+  "creatorId": "gdljceci",
+  "id": "powwowsp3",
+  "previewImageURL": "/previews/e7b53de2-powwowsp3/app/blank.png",
+  "isVersioned": true,
+  "githubRepo": "https://github.com/octopusdeveloper/powwowsp3",
+  "creatorName": "Jorge Carlos Ceciliano Esquinca"
 }
