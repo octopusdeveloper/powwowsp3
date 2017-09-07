@@ -1,20 +1,64 @@
 <ion-view data-comp-id="ionic-view.1">
     <ion-header-bar align-title="center" class="bar-dark"
-                    data-comp-id="header-bar.1">
-        <h1 class="title" data-comp-id="text.1">Menu</h1>
+        data-comp-id="header-bar.1" style="background: #000; ">
+        <div class="stlTop1">
+            <div class="stlTop2">
+                <div class="stlTop3">
+                    <img src="images/logo1.png">
+                </div>
+                <div class="stlTop4">
+                    <!--
+              Menu
+              -->
+                </div>
+            </div>
+        </div>
     </ion-header-bar>
-    <ion-content class="has-header" data-comp-id="ionic-content.1">
+    <ion-content class="has-header" data-comp-id="ionic-content.1"
+        style=" background: url(images/bk2.png) no-repeat center center ; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-color:#28C3F1;
+    
+">
+        <div class="stlTop6">
+            Menu
+        </div>
+        <div class="stlTop7"></div>
+        <div style="clear: both"></div>
         <ion-list data-comp-id="ionic-list.1">
-            <div class="item ng-hide" ng-show="hasCordova || isCanvas" data-comp-id="item.2" ng-click="app.getAppSettings(true)">
-                <div data-comp-id="text.3">
-                    Settings
-                </div>
-            </div>
-            <div class="item" data-comp-id="item.1" ng-click="app.logout()">
-                <div data-comp-id="text.2">
-                    Logout
-                </div>
-            </div>
+            <ion-item class="item item-icon-left item-icon-right"
+                style="border: 0px; background: none; color: #fff; font-size: 1.2em; font-weight: bold;">
+                <i class="icon ion-android-apps blueicon"></i>
+                My task
+                <i class="icon ion-chevron-right"></i>
+            </ion-item>
+            <ion-item class="item item-icon-left item-icon-right"
+                style="border: 0px; background: none; color: #fff; font-size: 1.2em; font-weight: bold;">
+                <i class="icon ion-ios-gear blueicon"></i>
+                Settings
+                <i class="icon ion-chevron-right"></i>
+            </ion-item>
+            <ion-item class="item item-icon-left item-icon-right"
+                style="border: 0px; background: none; color: #fff; font-size: 1.2em; font-weight: bold;">
+                <i class="icon ion-clipboard blueicon"></i>
+                Recent Moblie Actions
+                <i class="icon ion-chevron-right"></i>
+            </ion-item>
+            <ion-item class="item item-icon-left item-icon-right"
+                style="border: 0px; background: none; color: #fff; font-size: 1.2em; font-weight: bold;">
+                <i class="icon ion-help-circled blueicon"></i>
+                Help
+                <i class="icon ion-chevron-right"></i>
+            </ion-item>
+            <ion-item class="item item-icon-left item-icon-right" ng-click="app.logout()"
+                style="border: 0px; background: none; color: #fff; font-size: 1.2em; font-weight: bold;">
+                <i class="icon ion-log-out blueicon"></i>
+                Sign Out
+                <i class="icon ion-chevron-right"></i>
+            </ion-item>
         </ion-list>
     </ion-content>
 </ion-view>
